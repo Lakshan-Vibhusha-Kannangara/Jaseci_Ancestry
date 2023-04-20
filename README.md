@@ -20,8 +20,8 @@ To check this feature,
 1.Folk the repository
 2.Open the codespace
 3.Install jaseci studio
-4.rename 180235A.jac as main.jac(befor this you have to rename or delete other main and graph)
-5.rename 180235A_graph as graph.jac
+4.rename Index_No.jac as main.jac(befor this you have to rename or delete other main and graph)
+5.rename Index_No_graph as graph.jac
 6. Run the main.jac
 7. using walker "find_remaining_years" you can see the remaining years in terminal-1
 
@@ -32,6 +32,9 @@ https://user-images.githubusercontent.com/77208138/233457894-29a19879-06f4-46c0-
 
 
 https://user-images.githubusercontent.com/77208138/233458114-08cc0161-42f4-4dc3-a67b-7c5abd8e1e24.mp4
+
+
+Running of Walkers(Added Some Features)
 
 
 
