@@ -8,9 +8,7 @@ With a solid understanding of Jaseci, we proceeded to develop the new feature fo
 Once the new feature was implemented, we created a comprehensive README.md file in the GitHub repository. In the README, we documented our experience in building the new feature, including the challenges we faced, the solutions we employed, and the lessons we learned. We also provided detailed instructions for setting up and running the project, making it easy for others to replicate our work.
 To showcase the new feature, we created a video demonstration that was embedded in the README.md file. The video illustrated the functionality and usage of the new feature in action, providing a visual representation of our work.
 In conclusion, our team successfully added a new feature to the ancestry tracking project, maintained a GitHub repository with contributions from all team members, and documented our experience in the README.md file. Through this assignment, we gained valuable experience in utilizing Jaseci for graph computing, honed our coding skills, and demonstrated our ability to collaborate as a team to deliver a quality software project.
-![image](https://user-images.githubusercontent.com/77208138/233451174-ad51fdf5-9c51-4f54-b929-dcef2e727898.png)
-![video](https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Assignment_Ancestry/issues/3)
-![video](https://user-images.githubusercontent.com/77208138/233457141-4497bd8f-44b2-4103-98cb-e21e20f5ff17.mp4)
+
 
 Calculating the Remaining Number of Years for 80th Birthday
 This code is designed to calculate the remaining number of years 
@@ -26,3 +24,16 @@ To check this feature,
 5.rename 180235A_graph as graph.jac
 6. Run the main.jac
 7. using walker "find_remaining_years" you can see the remaining years in terminal-1
+
+
+
+https://user-images.githubusercontent.com/77208138/233457894-29a19879-06f4-46c0-abe6-8a746751f129.mp4
+
+
+
+https://user-images.githubusercontent.com/77208138/233458114-08cc0161-42f4-4dc3-a67b-7c5abd8e1e24.mp4
+
+
+
+
+
