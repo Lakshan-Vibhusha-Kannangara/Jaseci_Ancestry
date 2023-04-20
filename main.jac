@@ -1,5 +1,7 @@
 import {*} with "./graph.jac";
 import {*} with "./180661B.jac";
+import {*} with "./180235A.jac";
+import {*} with "./180338R.jac";
 
 walker create_familytree {
     // creates a familytree from a json file
@@ -55,39 +57,9 @@ walker create_familytree {
         }
     }
 }
-walker count_number_of_males {
-    // returns the upcoming birthdays of the family
-    has anchor male_count =0;
 
-    members = file.load_json(data_file)["members"];
-    for member in members {
-        if (member["gender"] == "Male") {
-            male_count=male_count+1;
-        }
-    }
-    with exit {
-        std.out(male_count);
-        report male_count;
-    }
-}
 
-walker count_number_of_females {
-    // returns the upcoming birthdays of the family
-    has anchor counter =0;
 
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-
-            if (gender=="females"){
-            counter=counter+1;
-            }
-        }
-    with exit {
-               std.out(counter);
-               report counter;
-    }
-}
 
 walker find_coming_birthday {
     // returns the upcoming birthdays of the family
