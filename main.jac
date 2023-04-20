@@ -1,4 +1,5 @@
 import {*} with "./graph.jac";
+import {*} with "./180661B.jac";
 
 walker create_familytree {
     // creates a familytree from a json file
@@ -69,23 +70,7 @@ walker count_number_of_males {
         report male_count;
     }
 }
-walker count_number_of_adults {
-    // returns the upcoming birthdays of the family
-    has anchor counter =0;
 
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-            here::get_age_group;
-            if (age_group=="adult"){
-            counter=counter+1;
-            }
-        }
-    with exit {
-               std.out(counter);
-               report counter;
-    }
-}
 walker count_number_of_females {
     // returns the upcoming birthdays of the family
     has anchor counter =0;
