@@ -148,3 +148,29 @@
 2023-04-20 16:10:13,232 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.005 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
 2023-04-20 16:11:04,624 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
 2023-04-20 16:11:04,652 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.018 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-20 22:10:36,281 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x131244050>
+2023-04-20 22:10:36,289 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x12fd32510>
+2023-04-20 22:10:36,289 - ERROR - compile_jac: main.jac: Invalid syntax in Jac code!
+2023-04-20 22:10:36,289 - ERROR - compile_jac: 180661B.jac: line 32:20 - unparsed:180661B.jac:0:0: - missing ';' at '}'
+2023-04-20 22:10:36,289 - ERROR - compile_jac: 180661B.jac: line 34:12 - unparsed:180661B.jac:0:0: - missing ';' at '}'
+2023-04-20 22:10:36,289 - ERROR - compile_jac: 180661B.jac: line 35:13 - unparsed:180661B.jac:0:0: - extraneous input 'else' expecting {'-->', '<--', '<-', '<-->', 'str', 'int', 'float', 'list', 'dict', 'bool', 'type', 'node', 'ignore', 'take', 'spawn', ':', '::', NODE_DBL_COLON, '{', '}', 'edge', 'sync', 'assert', 'if', 'for', 'while', 'continue', 'break', 'disengage', 'yield', 'skip', 'report', 'destroy', 'try', '&', NOT, 'global', '+', '-', '*', '(', '[', FLOAT, STRING, BOOL, INT, 'null', NAME}
+2023-04-20 22:10:36,289 - ERROR - compile_jac: 180661B.jac: line 37:15 - unparsed:180661B.jac:0:0: - missing ';' at '}'
+2023-04-20 22:10:36,289 - ERROR - compile_jac: 180661B.jac: line 39:4 - unparsed:180661B.jac:0:0: - extraneous input 'with' expecting {<EOF>, 'type', 'graph', 'node', 'edge', 'walker', 'async', 'test', 'global'}
+2023-04-20 22:10:36,289 - ERROR - compile_jac: Module not found for import! 180338R.jac from main.jac - /Users/vibhushakannangara/IdeaProjects/Jaseci_Assignment_Ancestry/./180338R.jac
+2023-04-20 22:10:36,289 - ERROR - register: main.jac: Code not registered
+2023-04-20 22:11:19,624 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x13154dc90>
+2023-04-20 22:11:19,625 - ERROR - compile_jac: main.jac: Invalid syntax in Jac code!
+2023-04-20 22:11:19,625 - ERROR - compile_jac: Module not found for import! 180338R.jac from main.jac - /Users/vibhushakannangara/IdeaProjects/Jaseci_Assignment_Ancestry/./180338R.jac
+2023-04-20 22:11:19,625 - ERROR - register: main.jac: Code not registered
+2023-04-20 16:42:11,412 - INFO - proc_request: Incoming call to walker_run with {'name': 'Millennial_or_Gen_Z', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
+2023-04-20 16:42:11,516 - ERROR - spawn_architype: main.jir: Unable to spawn walker architype Millennial_or_Gen_Z!
+2023-04-20 16:42:11,516 - ERROR - run_architype: main.jir: Unable to spawn architype ['Millennial_or_Gen_Z', 'walker']!
+2023-04-20 16:42:11,516 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.102 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-20 16:44:21,639 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-20 16:44:21,668 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.028 seconds[m touched [33m21[m mem / [33m0[m redis / [33m1[m db  ([33m0.5kb[m) and saving [33m20[m objects.
+2023-04-20 16:44:42,983 - INFO - proc_request: Incoming call to walker_run with {'name': 'Millennial_or_Gen_Z', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
+2023-04-20 16:44:43,066 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.082 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-20 16:45:25,327 - INFO - proc_request: Incoming call to walker_run with {'name': 'Millennial_or_Gen_Z', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
+2023-04-20 16:45:25,392 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.064 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-20 16:45:28,214 - INFO - proc_request: Incoming call to walker_run with {'name': 'Millennial_or_Gen_Z', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
+2023-04-20 16:45:28,289 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.075 seconds[m touched [33m15[m mem / [33m0[m redis / [33m14[m db  ([33m0.5kb[m) and saving [33m0[m objects.
