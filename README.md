@@ -11,3 +11,17 @@ In conclusion, our team successfully added a new feature to the ancestry trackin
 ![image](https://user-images.githubusercontent.com/77208138/233451174-ad51fdf5-9c51-4f54-b929-dcef2e727898.png)
 ![video](https://drive.google.com/file/d/1ZAVm_pZOtkpA9ewA4niyidahWFw8nZHK/view?usp=share_link)
 ![video](https://drive.google.com/file/d/1iV0I3ZOS-lACyKIJf5EALdw8vysOsfnr/view?usp=share_link)
+Calculating the Remaining Number of Years for 80th Birthday
+This code is designed to calculate the remaining number of years 
+for an individual's 80th birthday. The calculation is based on the 
+current date and the individual's birth date, and assumes that the
+individual will live to their 80th birthday.
+
+To check this feature, 
+1.Folk the repository
+2.Open the codespace
+3.Install jaseci studio
+4.rename 180235A.jac as main.jac(befor this you have to rename or delete other main and graph)
+5.rename 180235A_graph as graph.jac
+6. Run the main.jac
+7. using walker "find_remaining_years" you can see the remaining years in terminal-1
