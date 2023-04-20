@@ -10,7 +10,8 @@ To showcase the new feature, we created a video demonstration that was embedded 
 In conclusion, our team successfully added a new feature to the ancestry tracking project, maintained a GitHub repository with contributions from all team members, and documented our experience in the README.md file. Through this assignment, we gained valuable experience in utilizing Jaseci for graph computing, honed our coding skills, and demonstrated our ability to collaborate as a team to deliver a quality software project.
 ![image](https://user-images.githubusercontent.com/77208138/233451174-ad51fdf5-9c51-4f54-b929-dcef2e727898.png)
 ![video](https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Assignment_Ancestry/issues/3)
-![video](https://drive.google.com/file/d/1iV0I3ZOS-lACyKIJf5EALdw8vysOsfnr/view?usp=share_link)
+![video]([https://drive.google.com/file/d/1iV0I3ZOS-lACyKIJf5EALdw8vysOsfnr/view?usp=share_link](https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Assignment_Ancestry/issues/3#issue-1677220512)
+
 Calculating the Remaining Number of Years for 80th Birthday
 This code is designed to calculate the remaining number of years 
 for an individual's 80th birthday. The calculation is based on the 
