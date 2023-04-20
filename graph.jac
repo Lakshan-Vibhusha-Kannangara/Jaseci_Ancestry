@@ -28,7 +28,6 @@ node person {
     }
 
 
-
     can get_days_to_birthday {
         today_date = date.date_now();
         today_year = today_date.str::split('-')[0];
