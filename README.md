@@ -1,3 +1,6 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLakshan-Vibhusha-Kannangara%2FJaseci_Assignment_Ancestry&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 Link-To-Repo-https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Assignment_Ancestry.git
 # Jaseci_Assignment_Ancestry
 
@@ -53,7 +56,7 @@ ges.githubusercontent.com/77208138/233480992-b0c03bb9-2801-4458-8425-c6429304231
 ![Uploading Screenshot 2023-04-21 at 16.58.29.png…]()
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLakshan-Vibhusha-Kannangara%2FJaseci_Assignment_Ancestry&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 
 <img width="589" alt="Screenshot 2023-04-21 at 16 58 19" src="https://user-images.githubusercontent.com/77208138/233626776-fd079459-3278-4580-9c83-cfa18aec6d20.png">
