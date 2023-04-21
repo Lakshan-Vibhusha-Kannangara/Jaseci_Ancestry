@@ -1,20 +1,16 @@
 
-// walker count_number_of_females {
-//     // returns the upcoming birthdays of the family
-//     has anchor counter =0;
+walker count_number_of_males {
 
-//     root: take-->node::family_root;
-//     family_root: take-->node::person;
-//     person {
+     has anchor male_count =0;
 
-//             if (gender=="females"){
-//             counter=counter+1;
-//             }
-//         }
-//     with exit {
-//                std.out(counter);
-//                report counter;
-
-
-//     }
-//     }
+     members = file.load_json(data_file)["members"];
+    for member in members {
+      if (member["gender"] == "Female") {
+            male_count=male_count+1;
+         }
+     }
+    with exit {
+        std.out(male_count);
+         report male_count;
+    }
+ }

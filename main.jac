@@ -63,28 +63,9 @@ walker create_familytree {
 
 
 
-walker find_coming_birthday {
-    // returns the upcoming birthdays of the family
-    has max_return = 5;
-    has anchor birthday_order = [];
 
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-        if (!here.deceased) {
-            here::get_days_to_birthday;
-            here::get_age;
-            here::get_age_group;
-            birthday_order.l::append([here.days_to_birthday, here.age, here.name,here.age_group]);
-        }
-    }
-    with exit {
-        birthday_order = std.sort_by_col(birthday_order, 0);
-        birthday_order = birthday_order[0:max_return];
-        std.out(birthday_order);
-        report birthday_order;
-    }
-}
+
+
 
 walker find_coming_birthday {
     // returns the upcoming birthdays of the family
@@ -109,80 +90,6 @@ walker find_coming_birthday {
 
 }
 
-walker No_OF_Millennials {
 
-    // returns the upcoming birthdays of the family
-    has anchor count =0;
-
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-            here::get_age;
-            if (age>27){
-             if(age<42){
-                     count+=1;
-                    }
-            }   
-        }
-    with exit {
-               std.out(count);
-               report count;
-    }
-}
-
-walker count_number_of_males {
-    // returns the upcoming birthdays of the family
-    has anchor male_count =0;
-
-    members = file.load_json(data_file)["members"];
-    for member in members {
-        if (member["gender"] == "Male") {
-            male_count=male_count+1;
-        }
-    }
-    with exit {
-        std.out(male_count);
-        report male_count;
-    }
-}
-
-
-walker count_number_of_females {
-    // returns the upcoming birthdays of the family
-    has anchor counter =0;
-
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-
-            if (gender=="females"){
-            counter=counter+1;
-            }
-        }
-    with exit {
-               std.out(counter);
-               report counter;
-
-
-    }
-    }
-    import {*} with "./graph.jac";
-walker count_number_of_adults {
-    // returns the upcoming birthdays of the family
-    has anchor counter =0;
-
-    root: take-->node::family_root;
-    family_root: take-->node::person;
-    person {
-            here::get_age_group;
-            if (age_group=="adult"){
-            counter=counter+1;
-            }
-        }
-    with exit {
-               std.out(counter);
-               report counter;
-    }
-}
 
 

@@ -1,21 +1,20 @@
 
-// walker No_OF_Millennials {
+ walker No_OF_Millennials {
 
-//     // returns the upcoming birthdays of the family
-//     has anchor count =0;
+   has anchor count =0;
 
-//     root: take-->node::family_root;
-//     family_root: take-->node::person;
-//     person {
-//             here::get_age;
-//             if (age>27){
-//              if(age<42){
-//                      count+=1;
-//                     }
-//             }   
-//         }
-//     with exit {
-//                std.out(count);
-//                report count;
-//     }
-// }
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+     person {
+            here::get_age;
+          if (here.age>27){
+             if(here.age<42){
+                     count+=1;
+                    }
+            }
+        }
+  with exit {
+              std.out(count);
+               report count;
+     }
+ }
