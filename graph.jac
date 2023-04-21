@@ -19,7 +19,13 @@ node person {
     has age;
     has days_to_birthday;
     has age_group;
+    has remaining_years;
 
+    can get_years_to_eighty {
+            difference = date.date_day_diff(start_date=date_of_birth, end_date=today_date);
+            age = difference / 365;
+            remaining_years=80-age;
+        }
 
     can get_age {
         today_date = date.date_now();
