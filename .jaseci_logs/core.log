@@ -251,3 +251,53 @@
 2023-04-21 11:28:09,362 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.138 seconds[m touched [33m40[m mem / [33m0[m redis / [33m25[m db  ([33m0.8kb[m) and saving [33m8[m objects.
 2023-04-21 11:28:24,079 - INFO - proc_request: Incoming call to walker_run with {'name': 'count_number_of_adults', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
 2023-04-21 11:28:24,197 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.117 seconds[m touched [33m38[m mem / [33m0[m redis / [33m23[m db  ([33m0.8kb[m) and saving [33m8[m objects.
+2023-04-21 12:52:44,837 - INFO - proc_request: Incoming call to sentinel_register with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy
+2023-04-21 12:52:45,044 - INFO - log_request_stats: API call to [32msentinel_register[m completed in [33m0.206 seconds[m touched [33m23[m mem / [33m0[m redis / [33m1[m db  ([33m0.8kb[m) and saving [33m22[m objects.
+2023-04-21 12:53:31,320 - INFO - proc_request: Incoming call to architype_count with {'kind': 'node'}
+2023-04-21 12:53:31,326 - INFO - proc_request: Incoming call to info with {}
+2023-04-21 12:53:31,328 - INFO - proc_request: Incoming call to architype_count with {'kind': 'walker'}
+2023-04-21 12:53:31,329 - INFO - proc_request: Incoming call to architype_count with {'kind': 'graph'}
+2023-04-21 12:53:31,330 - INFO - proc_request: Incoming call to architype_count with {'kind': 'edge'}
+2023-04-21 12:53:31,331 - INFO - log_request_stats: API call to [32minfo[m completed in [33m0.005 seconds[m touched [33m2[m mem / [33m0[m redis / [33m0[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:31,814 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.492 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:31,827 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.499 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:31,834 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.502 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:31,840 - INFO - log_request_stats: API call to [32marchitype_count[m completed in [33m0.511 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,068 - INFO - proc_request: Incoming call to graph_active_get with {}
+2023-04-21 12:53:33,097 - INFO - log_request_stats: API call to [32mgraph_active_get[m completed in [33m0.029 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,112 - INFO - proc_request: Incoming call to master_allusers with {'search': '', 'offset': 0, 'limit': 10}
+2023-04-21 12:53:33,129 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'show_edges': True, 'detailed': True}
+2023-04-21 12:53:33,131 - INFO - proc_request: Incoming call to graph_list with {}
+2023-04-21 12:53:33,132 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'show_edges': True, 'detailed': True}
+2023-04-21 12:53:33,135 - INFO - log_request_stats: API call to [32mmaster_allusers[m completed in [33m0.023 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,154 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.025 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,180 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.047 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,188 - INFO - log_request_stats: API call to [32mgraph_list[m completed in [33m0.057 seconds[m touched [33m5[m mem / [33m0[m redis / [33m4[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,423 - INFO - proc_request: Incoming call to walker_list with {}
+2023-04-21 12:53:33,552 - INFO - log_request_stats: API call to [32mwalker_list[m completed in [33m0.129 seconds[m touched [33m18[m mem / [33m0[m redis / [33m17[m db  ([33m0.5kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,559 - INFO - proc_request: Incoming call to alias_list with {}
+2023-04-21 12:53:33,565 - INFO - log_request_stats: API call to [32malias_list[m completed in [33m0.006 seconds[m touched [33m2[m mem / [33m0[m redis / [33m1[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:33,572 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'show_edges': True, 'detailed': True}
+2023-04-21 12:53:33,580 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.008 seconds[m touched [33m3[m mem / [33m0[m redis / [33m2[m db  ([33m0.2kb[m) and saving [33m0[m objects.
+2023-04-21 12:53:56,301 - INFO - proc_request: Incoming call to walker_run with {'name': 'create_familytree', 'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'snt': 'urn:uuid:912e554a-1e0c-4e81-b0cd-3a5fa629ddec', 'ctx': {'data_file': 'familytree.json'}}
+2023-04-21 12:53:56,435 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.133 seconds[m touched [33m39[m mem / [33m0[m redis / [33m17[m db  ([33m0.8kb[m) and saving [33m8[m objects.
+2023-04-21 12:53:56,480 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'show_edges': True, 'detailed': True}
+2023-04-21 12:53:56,495 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.015 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:14,291 - INFO - proc_request: Incoming call to walker_run with {'name': 'find_coming_birthday', 'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'snt': 'urn:uuid:912e554a-1e0c-4e81-b0cd-3a5fa629ddec', 'ctx': {'max_return': 1}}
+2023-04-21 12:54:14,463 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.171 seconds[m touched [33m44[m mem / [33m0[m redis / [33m29[m db  ([33m1.5kb[m) and saving [33m8[m objects.
+2023-04-21 12:54:14,488 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:ca9bbf31-3ee2-400c-bcc3-f4f5636899c2', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:14,502 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.014 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:16,696 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:0c15bd74-4c98-4e70-a081-15d449485b64', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:16,728 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.031 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:17,983 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:9bcf2723-1c8f-44f8-ba7f-2dde27c3e74a', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:18,030 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.046 seconds[m touched [33m14[m mem / [33m0[m redis / [33m7[m db  ([33m0.5kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:22,872 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:4f59fb39-fadb-498a-864b-e9a981074c1d', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:22,906 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.034 seconds[m touched [33m7[m mem / [33m0[m redis / [33m4[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:25,572 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:27fb041f-489f-4efb-a5c9-5cc6b9503257', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:25,609 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.037 seconds[m touched [33m9[m mem / [33m0[m redis / [33m5[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:27,911 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:13d3a5d9-4e19-4c49-812e-88ba6770288e', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:27,953 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.042 seconds[m touched [33m12[m mem / [33m0[m redis / [33m6[m db  ([33m0.5kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:34,575 - INFO - proc_request: Incoming call to graph_node_view with {'nd': 'urn:uuid:0b5f3694-cab9-41fb-b935-f0e10a7990c8', 'show_edges': True, 'detailed': True}
+2023-04-21 12:54:34,611 - INFO - log_request_stats: API call to [32mgraph_node_view[m completed in [33m0.036 seconds[m touched [33m9[m mem / [33m0[m redis / [33m5[m db  ([33m0.3kb[m) and saving [33m1[m objects.
+2023-04-21 12:54:59,435 - INFO - proc_request: Incoming call to walker_run with {'name': 'find_remaining_years', 'output': '', 'is_async': None, 'profiling': False, 'snt': None, '_req_ctx': '{}', 'ctx': '{}', 'nd': None}
+2023-04-21 12:54:59,553 - INFO - log_request_stats: API call to [32mwalker_run[m completed in [33m0.117 seconds[m touched [33m40[m mem / [33m0[m redis / [33m25[m db  ([33m0.8kb[m) and saving [33m8[m objects.
