@@ -46,10 +46,9 @@ Running of Walkers(Added Some Features)
 
 https://user-images.githubusercontent.com/77208138/233480933-ee330ec4-77ad-488b-8d09-4e86c9d63719.mp4
 
+<img width="554" alt="Screenshot 2023-04-21 at 16 58 29" src="https://user-images.githubusercontent.com/77208138/233626732-d0f48f5a-59be-4a36-b817-9ec94ae9f337.png">
 
-
-https://user-ima<img width="554" alt="Screenshot 2023-04-21 at 16 58 29" src="https://user-images.githubusercontent.com/77208138/233626732-d0f48f5a-59be-4a36-b817-9ec94ae9f337.png">
-ges.githubusercontent.com/77208138/233480992-b0c03bb9-2801-4458-8425-c64293042315.mp4
+https://user-images.githubusercontent.com/77208138/233480992-b0c03bb9-2801-4458-8425-c64293042315.mp4
 
 
 
@@ -66,6 +65,7 @@ ges.githubusercontent.com/77208138/233480992-b0c03bb9-2801-4458-8425-c6429304231
 
 
 Group Members
+
 180661B - VIBHUSHA K.K.L - Lakshan-Vibhusha-Kannangara
 
 180235A - Hettiarachchi E.H.P.D - DarshakaHettitiarachchi
