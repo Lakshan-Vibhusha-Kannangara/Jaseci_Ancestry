@@ -70,7 +70,7 @@ Group Members
 
 180235A - Hettiarachchi E.H.P.D - DarshakaHettitiarachchi
 
-180338R - A.R.A.S. Ambadeniya - Hasitha7
+180338R - H.D.H.P. Kumarasiri - Hasitha7
 
 180264K-H.M.R.T.Jayanthi-Ruwini98
 
