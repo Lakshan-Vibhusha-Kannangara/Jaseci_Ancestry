@@ -2,7 +2,7 @@
 
 
 Link-To-Repo-https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Ancestry.git
-# Jaseci_Assignment_Ancestry
+# Jaseci_Ancestry
 
 
 As part of our project for ancestry tracking, we were tasked with adding a new feature to the existing project. To accomplish this, we utilized the Jaseci graph computing platform, which provides powerful tools for working with graphs and performing complex computations on them.
