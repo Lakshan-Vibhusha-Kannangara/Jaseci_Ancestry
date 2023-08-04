@@ -1,7 +1,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLakshan-Vibhusha-Kannangara%2FJaseci_Assignment_Ancestry&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
-Link-To-Repo-https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Assignment_Ancestry.git
+Link-To-Repo-https://github.com/Lakshan-Vibhusha-Kannangara/Jaseci_Ancestry.git
 # Jaseci_Assignment_Ancestry
 
 
