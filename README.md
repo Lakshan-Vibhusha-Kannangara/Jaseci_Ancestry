@@ -64,15 +64,3 @@ https://user-images.githubusercontent.com/77208138/233480992-b0c03bb9-2801-4458-
 
 
 
-Group Members
-
-180661B - VIBHUSHA K.K.L - Lakshan-Vibhusha-Kannangara
-
-180235A - Hettiarachchi E.H.P.D - DarshakaHettitiarachchi
-
-180338R - H.D.H.P. Kumarasiri - Hasitha7
-
-180264K-H.M.R.T.Jayanthi-Ruwini98
-
-180349C - R.M.S. Lakruwani -SureshmiRMS
-
